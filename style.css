@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    background-color: #F7F7F7;
+    color: #222222;
+    font-family: "Lato", sans-serif;
+    font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+    font-family: "Bree Serif", serif;
+    border-color: #D9D9D9;
+    font-weight: normal;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+a {
+    color: #0077BB;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+ul > li {
+    margin: -0.2em 0;
+}
+ul > li:before {
+    content: "";
+    border-color: transparent #555555;
+    border-style: solid;
+    border-width: 0.2em 0 0.2em 0.3em;
+    display: block;
+    left: -0.6em;
+    top: 0.95em;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+    width: 0px;
+}
+
+code {
+    font-family: "Monaco", monospace;
+}
+
+p > code {
+    color: #BB0077;
+    background-color: #FFFFFF;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 60%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+pre, blockquote {
+    padding: 1em;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+blockquote > p:first-child {
+    margin-top: 0;
+}
+
+blockquote > p:last-child {
+    margin-bottom: 0;
+}
+
+blockquote {
+    border-left: 3px solid #FDCC02;
+}
+
+#slide-1 {
+    background-color: #EEC85E;
+}
+.author-slide {
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+.author-slide a {
+    color: #FDCC02;
+}
+
+.progress {
+    z-index: 1;
+}
+.progress-bar {
+    background-color: #FDCC02;
+    transition-duration: 0.25s;
+}
